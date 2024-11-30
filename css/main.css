@@ -1,0 +1,15 @@
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #F7ECDE;
+}
+.bookmarker{
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

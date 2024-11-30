@@ -1,0 +1,703 @@
+/* var skils="conter";
+if(skils== 'php'){
+    console.log("learn backend");
+}
+else if(skils== 'js'){
+    console.log("learn frontend");
+}
+else if(skils== 'c#'){
+    console.log("learn desktop");
+}
+else {
+    console.log("learn cooking")
+} */
+
+// assignment 1 javascript
+
+// q1
+// var x = window.prompt("enter your number");
+// console.log(x);
+
+// q2
+// var x = window.prompt("enter your number");
+// if (x%3 && x%4 == 0 ){
+//     console.log("yes");
+// }
+// else {
+//     console.log("no");
+// }
+
+// q3
+// var x = 1;
+// x = window.prompt("enter your number1");
+
+// var y= 1;
+// y = window.prompt("enter your number2");
+
+// if (x > y){
+//     console.log(x);
+// }
+// else{
+//     console.log(y);
+// }
+
+// q4
+// var x =0 ;
+// x = window.prompt("enter your number");
+//     if (x > 0 ){
+//         console.log("positive")
+//     }
+//     else{
+//         console.log("negative");
+//     }
+// q5
+// var x = 0;
+// var y = 0;
+// var z = 0;
+// x = window.prompt("enter number 1");
+// y = window.prompt("enter number 2");
+// z = window.prompt("enter number 3");
+// // max
+// if (x > y && x > z){
+//     console.log("max is :",x);
+// }
+// else if (y > x && y > z){
+//     console.log("max is :",y);
+// }
+// else  if (z > x && z > y){
+//     console.log("max is :",z);
+// }
+// else {
+//     console.log("error");
+// }
+// // min
+// if (x < y && x < z){
+//     console.log("min is :",x);
+// }
+// else if (y < x && y < z){
+//     console.log("min is :",y);
+// }
+// else  if (z < x && z < y){
+//     console.log("min is :",z);
+// }
+// else {
+//     console.log("error");
+// }
+
+// q6 , q7
+// var x = 0 ;
+// x= window.prompt("enter number");
+// if (x % 2 == 0){
+//     console.log("Even");
+// }
+// else(
+//     console.log("odd")
+// )
+
+// q8
+// x=" ";
+// x = window.prompt("enter caption");
+// switch(x){
+//     case x=="a":
+//     console.log("vowel");
+//     break;
+
+//     case x=="e":
+//     console.log("vowel");
+//     break;
+
+//     case x== "o":
+//     console.log("vowel");
+//     break;
+
+//     case x== "i":
+//     console.log("vowel");
+//     break;
+
+//     case x=="u":
+//     console.log("vowel");
+//     break;
+
+//     default:
+//     console.log("Consonant");
+// }
+
+// q9
+// var x = 0;
+// for (var i = 1; i < 5; i++) {
+// console.log( x = x + i );
+// }
+
+/* q10
+var x = window.prompt("enter number");
+var result= 0;
+for (var i = 1 ; i < 13 ; i++){
+    console.log(result= x * i)
+} */
+
+/* q11
+var x = window.prompt("hello");
+var y = '';
+for (var i = 2 ; i <= x ; i+=2){
+    y += i +' ';
+}
+console.log(y.trim()); */
+
+// q12
+/* var x = window.prompt("");
+var y = window.prompt("");
+var z = 1 ;
+for (var i = 0 ; i < y ; i++ ){
+    z=z*x;
+}
+console.log(z); */
+
+// q12
+/* var x= +window.prompt("enter number 1");
+var y= +window.prompt("enter number 2");
+var z= +window.prompt("enter number 3");
+var e= +window.prompt("enter number 4");
+var u= +window.prompt("enter number 5");
+var result = x + y + z + e + u;
+console.log("result is : ",result);
+
+var avg= result / 5;
+console.log("avg is : " , avg);
+
+var percentage = (result / 500) * 100;
+console.log("Percentage: " + percentage); */
+
+// q13
+/* var monthNumber =window.prompt("Enter Number of Month");
+var daysInMonth;
+
+if (+monthNumber === 2) {
+    console.log("Days in Month: " , daysInMonth=28); 
+} else if (+monthNumber === 4 || +monthNumber === 6 || +monthNumber === 9 || +monthNumber === 11) {
+    console.log("Days in Month: " , daysInMonth=30); 
+} else {
+    console.log("Days in Month: " , daysInMonth=31);
+}
+ */
+
+// q14
+/* var physics = window.prompt("enter the grade"); 
+var chemistry = window.prompt("enter the grade"); 
+var biology = window.prompt("enter the grade"); 
+var mathematics =window.prompt("enter the grade"); 
+var computer = window.prompt("enter the grade"); 
+var totalMarks = physics + chemistry + biology + mathematics + computer;
+var percentage = (totalMarks / 500) * 100;
+var grade;
+if (percentage >= 90) {
+    grade = 'A';
+} else if (percentage >= 80) {
+    grade = 'B';
+} else if (percentage >= 70) {
+    grade = 'C';
+} else if (percentage >= 60) {
+    grade = 'D';
+} else if (percentage >= 40) {
+    grade = 'E';
+} else {
+    grade = 'F';
+}
+console.log("Percentage: " + percentage + "%");
+console.log("Grade: " + grade); */
+
+// q15
+/* var monthNumber = 2;
+switch (monthNumber) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        console.log("Days in Month: 31");
+        break;
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        console.log("Days in Month: 30");
+        break;
+    case 2:
+        console.log("Days in Month: 28");
+        break;
+    default:
+        console.log("Invalid month number");
+        break;
+}
+ */
+
+// q16
+/* var str= window.prompt("enter str");
+
+switch(str){
+    case "e":
+        console.log("e :" + 'Vowel');
+        break;
+    case "o":
+    console.log("o :" + 'Vowel');
+        break;
+    case "i":
+        console.log("i :" + 'Vowel');
+    break;
+    case "u":
+        console.log("u :" + ' Vowel');
+        break;
+default:
+    console.log("Consonant");
+    break;
+} */
+
+// q17
+// var x = window.prompt("enter number 1");
+// var y = window.prompt("enter number 2");
+// switch(true){
+//     case x > y :
+//         console.log('max is : ' , x );
+//         break;
+//     case y>x :
+//         console.log('max is : ' , y );
+//         break;
+// }
+
+// q18
+/* var x = window.prompt("enter number");;
+switch(x % 2){
+    case 0:
+        console.log("Even");
+        break;
+    case 1:
+        console.log("odd");
+        break;
+    }
+ */
+
+// q19
+// var x = window.prompt("enter the number");
+// switch(true){
+//     case (x > 0):
+//         console.log("positive");
+//     break;
+//     case (x < 0):
+//         console.log("negative");
+//     break;
+//     case (x==0):
+//         console.log("zero");
+//     break;
+//     }
+
+// q20
+// var x = 'div';
+// var y = window.prompt("enter number");
+// var z = window.prompt("enter number");
+// var i ;
+
+// switch( x ){
+//     case 'add':
+//     i= +y + +z ;
+//     console.log(i);
+//     break;
+
+//     case 'sub':
+//     i= +y - +z ;
+//     console.log(i);
+//     break;
+
+//     case 'muitiple':
+//     i= +y * +z ;
+//     console.log(i);
+//     break;
+
+//     case 'div':
+//     i= +y / +z ;
+//     console.log(i);
+//     break;
+
+//     default:
+//     i = 'Invalid operation';
+//     console.log(i);
+//     break;
+
+// }
+
+// function getName(name1 , name2){
+//     var sum =  name1 + name2;
+//     var result = sum /2;
+//     console.log(result);
+// }
+// getName(30 , 30);
+
+// var user = {
+//     username:"Mohamed",
+//     age:21,
+//     gender:"male",
+
+//     wife: {
+//         username:"aya",
+//         age:22,
+//         gender:"female"
+//     }
+// }
+// console.log(user["username"]);
+
+// var color=["black","tomato","white","red"];
+// console.log(color);
+// console.log(color[1]);
+
+// var products=[
+//     {name:"Mohamed",age:"21",gender:"male"},
+//     {name:"omar",age:"13",gender:"male"},
+//     {name:"joo",age:"22",gender:"male"},
+//     {name:"sheba",age:"21",gender:"male"},
+//     {name:"sheba",age:"21",gender:"male"},
+//     {name:"sheba",age:"21",gender:"male"},
+//     {name:"sheba",age:"21",gender:"male"},
+//     {name:"sheba",age:"21",gender:"male"},
+//     {name:"sheba",age:"21",gender:"male"},
+//     {name:"sheba",age:"21",gender:"male"},
+// ];
+// for(var i=0 ; i<products.length ; i++){
+//     console.log(products[i].name)
+// }
+// var cartona="";
+// for(var i = 0 ; i < products.length;i++){
+//     cartona+=`
+//     <div class="col-md-4">
+//     <div class="card text-center">
+//     <h2> ${products[i].name}</h2>
+//     <p>${products[i].age}</p>
+//     <p>${products[i].gender}</p>
+//     </div>
+//     </div>`
+// }
+//     document.getElementById("rowData").innerHTML=cartona;
+
+var productNameInput = document.getElementById("ProductName");
+var productPriceInput = document.getElementById("ProductPrice");
+var productCategoryInput = document.getElementById("ProductCategory");
+var productDescriptionInput = document.getElementById("ProductDescription");
+var productImageInput = document.getElementById("ProductImage");
+
+var productlist = [];
+
+function addProduct() {
+  var product = {
+    name: productNameInput.value,
+    price: productPriceInput.value,
+    category: productCategoryInput.value,
+    description: productDescriptionInput.value,
+    image: "images/1.jpg",
+  };
+
+    productlist.push(product);
+    displayData();
+
+  // clearForm();
+
+  console.log(productlist);
+}
+
+function clearForm() {
+  productNameInput.value = null;
+  productPriceInput.value = null;
+  productDescriptionInput.value = null;
+  productCategoryInput.value = null;
+  productImageInput.value = null;
+}
+
+function displayData() {
+  var cartona = "";
+  for (var i = 0; i < productlist.length; i++) {
+    cartona += ` 
+        <tr>
+        <td>${i}</td>
+        <td>${productlist[i].name}</td>
+        <td>${productlist[i].price}</td>
+        <td>${productlist[i].category}</td>
+        <td>${productlist[i].description}</td>
+        <td><img width="100px" src=" ${ productlist[i].image} " alt=""></td>
+        <td>
+            <button class="btn btn-outline-danger btn-sm">UPDATE</button>
+            <button class="btn btn-outline-warning btn-sm">DELET</button>
+        </td>
+        </tr>`;
+  }
+  document.getElementById = "tableData".innerHTML = cartona;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                 
+                                                    C R U D 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniels</title>
+    <link rel="shortcut icon" href="css/imgs/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body data-bs-spy="scroll">
+    <div class="w-75 mx-auto bg-info p-2 rounded my-2">
+      <h1 class="text-center">CRUD SYSTEM</h1>
+
+      <div class="form-floating my-1">
+        <input
+        oninput="validationName()"
+          type="text"class="form-control "id="ProductName"placeholder="name@example.com"/>
+        <label for="ProductName">Product Name </label>
+      <p id="msgName" class="alert alert-danger d-none">Invalid Pattern</p>
+      
+      </div>
+
+      <div class="form-floating my-1">
+        <input
+          type="number"
+          class="form-control"
+          id="ProductPrice"
+          placeholder="name@example.com"
+        />
+        <label for="ProductPrice">Product Price </label>
+      </div>
+
+      <div class="form-floating my-1">
+        <input
+          list="Category"
+          type="text"
+          class="form-control"
+          id="ProductCategory"
+          placeholder="name@example.com"
+        />
+        <label for="ProductCategory">Product Category </label>
+
+        <datalist id="Category">
+          <option value="TV"></option>
+          <option value="Screen"></option>
+          <option value="Mobile"></option>
+          <option value="Electronic"></option>
+        </datalist>
+      </div>
+
+      <div class="form-floating my-1">
+        <textarea
+          style="height: 100px"
+          class="form-control"
+          id="ProductDescription"
+          placeholder="name@example.com"
+        ></textarea>
+        <label for="ProductDescription">ProductDescription </label>
+      </div>
+
+      <div class="form-floating my-1">
+        <input
+          type="file"
+          class="form-control"
+          id="ProductImage"
+          placeholder="name@example.com"
+        />
+        <label for="ProductImage">Product Image </label>
+      </div>
+
+      <div class="mt-3">
+        <button onclick="addProduct()" id="btnAdd" class="btn btn-primary">
+          Add Product
+        </button>
+        <button id="btnUpdate" class="btn btn-warning d-none">
+          Update Product
+        </button>
+      </div>
+    </div>
+
+
+    <input id="searchInput" oninput="searchItem()" type="search" class="form-control w-50 mx-auto my-2" placeholder="search By Name...">
+
+
+
+    <div>
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Descrition</th>
+            <th>Image</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tableData">
+          
+        </tbody>
+      </table>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ProductNameInput = document.getElementById("ProductName");
+var ProductPriceInput = document.getElementById("ProductPrice");
+var ProductCategoryInput = document.getElementById("ProductCategory");
+var ProductDescriptionInput = document.getElementById("ProductDescription");
+var ProductImageInput = document.getElementById("ProductImage");
+
+var productList=[];
+
+if(localStorage.getItem("productsContainer") !== null){
+    productList = JSON.parse(localStorage.getItem("productsContainer"));
+
+    displayData();
+    
+}
+
+
+
+
+function addProduct(){
+var product={
+
+    name:ProductNameInput.value,
+    price:ProductPriceInput.value,
+    category:ProductCategoryInput.value,
+    description:ProductDescriptionInput.value,
+    image:'css/imgs/6.jpg',
+}
+productList.push(product);
+displayData();
+// clearForm();
+localStorage.setItem("productsContainer", JSON.stringify ( productList ));
+console.log(productList);
+
+}
+
+function clearForm(){
+    ProductNameInput.value=null;
+    ProductPriceInput.value=null;
+    ProductCategoryInput.value=null;
+    ProductDescriptionInput.value=null;
+    ProductImageInput.value=null;
+}
+
+function displayData(){
+    var cartona = ""; 
+    for( var i=0 ; i< productList.length ; i++ ){
+        cartona+=` <tr>
+        <td>${i+1}</td>
+        <td>${productList[i].name}</td>
+        <td>${productList[i].price}</td>
+        <td>${productList[i].category}</td>
+        <td>${productList[i].description}</td>
+        <td><img width="100px" src="${productList[i].image}" alt=""></td>
+        <td>
+        <div class="mt-3">
+        <button class="btn btn-primary">UP DATE</button>
+        <button onclick="deletItem(${i})" class=" btn btn-danger">DELET</button>
+        </div>
+        </td>
+        </tr>`
+    }
+    document.getElementById("tableData").innerHTML=cartona;
+}
+
+
+function deletItem(indexItem){
+    productList.splice(indexItem , 1);
+    localStorage.setItem("productsContainer", JSON.stringify ( productList ));
+
+    displayData();
+    console.log(productList);
+}
+
+
+
+// [
+// {name: '', price: '32', category: 'Screen', description: 'csccs', image: 'css/imgs/6.jpg'}
+// ,{name: '', price: '32', category: 'Screen', description: 'csccs', image: 'css/imgs/6.jpg'}
+// ,{name: '', price: '32', category: 'Screen', description: 'csccs', image: 'css/imgs/6.jpg'}
+// ,{name: '', price: '32', category: 'Screen', description: 'csccs', image: 'css/imgs/6.jpg'}
+
+// ]
+
+
+
+
+
+
+
+
+
+
+
+
+
